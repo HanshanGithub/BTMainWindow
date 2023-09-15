@@ -50,21 +50,21 @@ public:
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
     QComboBox *comboBox_2;
+    QPushButton *pushButton;
+    QCheckBox *checkBox_4;
     QCheckBox *checkBox;
-    QPushButton *pushButton_3;
-    QComboBox *comboBox;
     QPushButton *pushButton_4;
-    QLineEdit *lineEdit_3;
-    QPushButton *pushButton_2;
-    QRadioButton *radioButton_3;
-    QRadioButton *radioButton;
-    QRadioButton *radioButton_2;
-    QLineEdit *lineEdit_2;
     QLineEdit *lineEdit;
+    QLineEdit *lineEdit_3;
+    QRadioButton *radioButton_3;
+    QPushButton *pushButton_3;
+    QRadioButton *radioButton;
     QCheckBox *checkBox_2;
     QCheckBox *checkBox_3;
-    QCheckBox *checkBox_4;
-    QPushButton *pushButton;
+    QComboBox *comboBox;
+    QPushButton *pushButton_2;
+    QLineEdit *lineEdit_2;
+    QRadioButton *radioButton_2;
     QGroupBox *groupBox_2;
     QVBoxLayout *verticalLayout_2;
     QTableWidget *tableWidget;
@@ -150,19 +150,65 @@ public:
         comboBox_2->setObjectName(QString::fromUtf8("comboBox_2"));
         comboBox_2->setEnabled(false);
 
-        gridLayout->addWidget(comboBox_2, 3, 2, 1, 1);
+        gridLayout->addWidget(comboBox_2, 5, 2, 1, 1);
+
+        pushButton = new QPushButton(groupBox_3);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+
+        gridLayout->addWidget(pushButton, 4, 1, 2, 1);
+
+        checkBox_4 = new QCheckBox(groupBox_3);
+        checkBox_4->setObjectName(QString::fromUtf8("checkBox_4"));
+
+        gridLayout->addWidget(checkBox_4, 3, 0, 1, 1);
 
         checkBox = new QCheckBox(groupBox_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
         checkBox->setChecked(false);
         checkBox->setTristate(true);
 
-        gridLayout->addWidget(checkBox, 1, 0, 1, 1);
+        gridLayout->addWidget(checkBox, 2, 0, 1, 1);
+
+        pushButton_4 = new QPushButton(groupBox_3);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+
+        gridLayout->addWidget(pushButton_4, 4, 0, 1, 1);
+
+        lineEdit = new QLineEdit(groupBox_3);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+
+        gridLayout->addWidget(lineEdit, 9, 0, 1, 1);
+
+        lineEdit_3 = new QLineEdit(groupBox_3);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setEnabled(false);
+
+        gridLayout->addWidget(lineEdit_3, 10, 1, 1, 1);
+
+        radioButton_3 = new QRadioButton(groupBox_3);
+        radioButton_3->setObjectName(QString::fromUtf8("radioButton_3"));
+
+        gridLayout->addWidget(radioButton_3, 6, 0, 1, 1);
 
         pushButton_3 = new QPushButton(groupBox_3);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
 
-        gridLayout->addWidget(pushButton_3, 1, 1, 1, 1);
+        gridLayout->addWidget(pushButton_3, 2, 1, 1, 1);
+
+        radioButton = new QRadioButton(groupBox_3);
+        radioButton->setObjectName(QString::fromUtf8("radioButton"));
+
+        gridLayout->addWidget(radioButton, 5, 0, 1, 1);
+
+        checkBox_2 = new QCheckBox(groupBox_3);
+        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
+
+        gridLayout->addWidget(checkBox_2, 1, 0, 1, 1);
+
+        checkBox_3 = new QCheckBox(groupBox_3);
+        checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
+
+        gridLayout->addWidget(checkBox_3, 0, 0, 1, 1);
 
         comboBox = new QComboBox(groupBox_3);
         comboBox->addItem(QString());
@@ -171,69 +217,23 @@ public:
         comboBox->addItem(QString());
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
 
-        gridLayout->addWidget(comboBox, 4, 0, 1, 1);
-
-        pushButton_4 = new QPushButton(groupBox_3);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-
-        gridLayout->addWidget(pushButton_4, 2, 0, 1, 1);
-
-        lineEdit_3 = new QLineEdit(groupBox_3);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
-        lineEdit_3->setEnabled(false);
-
-        gridLayout->addWidget(lineEdit_3, 6, 1, 1, 1);
+        gridLayout->addWidget(comboBox, 8, 0, 1, 1);
 
         pushButton_2 = new QPushButton(groupBox_3);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setEnabled(false);
 
-        gridLayout->addWidget(pushButton_2, 4, 2, 1, 1);
-
-        radioButton_3 = new QRadioButton(groupBox_3);
-        radioButton_3->setObjectName(QString::fromUtf8("radioButton_3"));
-
-        gridLayout->addWidget(radioButton_3, 5, 1, 1, 1);
-
-        radioButton = new QRadioButton(groupBox_3);
-        radioButton->setObjectName(QString::fromUtf8("radioButton"));
-
-        gridLayout->addWidget(radioButton, 3, 0, 1, 1);
-
-        radioButton_2 = new QRadioButton(groupBox_3);
-        radioButton_2->setObjectName(QString::fromUtf8("radioButton_2"));
-
-        gridLayout->addWidget(radioButton_2, 6, 0, 1, 1);
+        gridLayout->addWidget(pushButton_2, 8, 2, 1, 1);
 
         lineEdit_2 = new QLineEdit(groupBox_3);
         lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
 
-        gridLayout->addWidget(lineEdit_2, 4, 1, 1, 1);
+        gridLayout->addWidget(lineEdit_2, 8, 1, 1, 1);
 
-        lineEdit = new QLineEdit(groupBox_3);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        radioButton_2 = new QRadioButton(groupBox_3);
+        radioButton_2->setObjectName(QString::fromUtf8("radioButton_2"));
 
-        gridLayout->addWidget(lineEdit, 5, 0, 1, 1);
-
-        checkBox_2 = new QCheckBox(groupBox_3);
-        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
-
-        gridLayout->addWidget(checkBox_2, 0, 0, 1, 1);
-
-        checkBox_3 = new QCheckBox(groupBox_3);
-        checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
-
-        gridLayout->addWidget(checkBox_3, 0, 1, 1, 1);
-
-        checkBox_4 = new QCheckBox(groupBox_3);
-        checkBox_4->setObjectName(QString::fromUtf8("checkBox_4"));
-
-        gridLayout->addWidget(checkBox_4, 0, 2, 1, 1);
-
-        pushButton = new QPushButton(groupBox_3);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-
-        gridLayout->addWidget(pushButton, 2, 1, 2, 1);
+        gridLayout->addWidget(radioButton_2, 7, 0, 1, 1);
 
 
         verticalLayout_3->addLayout(gridLayout);
@@ -387,23 +387,23 @@ public:
         comboBox_2->setItemText(2, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
         comboBox_2->setItemText(3, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
 
+        pushButton->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
+        checkBox_4->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
         checkBox->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
+        pushButton_4->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
+        lineEdit_3->setText(QApplication::translate("BTQSSDialog", "\344\270\215\345\217\257\347\274\226\350\276\221", nullptr));
+        radioButton_3->setText(QApplication::translate("BTQSSDialog", "RadioButton", nullptr));
         pushButton_3->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
+        radioButton->setText(QApplication::translate("BTQSSDialog", "RadioButton", nullptr));
+        checkBox_2->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
+        checkBox_3->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
         comboBox->setItemText(0, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
         comboBox->setItemText(1, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
         comboBox->setItemText(2, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
         comboBox->setItemText(3, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
 
-        pushButton_4->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
-        lineEdit_3->setText(QApplication::translate("BTQSSDialog", "\344\270\215\345\217\257\347\274\226\350\276\221", nullptr));
         pushButton_2->setText(QApplication::translate("BTQSSDialog", "\344\270\215\345\217\257\347\224\250", nullptr));
-        radioButton_3->setText(QApplication::translate("BTQSSDialog", "RadioButton", nullptr));
-        radioButton->setText(QApplication::translate("BTQSSDialog", "RadioButton", nullptr));
         radioButton_2->setText(QApplication::translate("BTQSSDialog", "RadioButton", nullptr));
-        checkBox_2->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
-        checkBox_3->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
-        checkBox_4->setText(QApplication::translate("BTQSSDialog", "CheckBox", nullptr));
-        pushButton->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
         groupBox_2->setTitle(QApplication::translate("BTQSSDialog", "table", nullptr));
         QTableWidgetItem *___qtablewidgetitem = tableWidget->horizontalHeaderItem(0);
         ___qtablewidgetitem->setText(QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\345\210\227", nullptr));
