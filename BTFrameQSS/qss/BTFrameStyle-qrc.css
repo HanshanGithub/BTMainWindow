@@ -47,6 +47,7 @@ SARibbonBar {
 	/*border-width: 1px 1px 0px 1px;*/
 }
 
+
 /*未找到明显变化
 SARibbonButtonGroupWidget{
 	background-color: transparent;
@@ -197,10 +198,16 @@ QTabWidget {
 	border: 1px solid #ccc;
 }*/
 
+/*没有定位
+QTabBar {
+	height:40px;
+	border:red;
+}*/
 
 QTabBar::Tab {
-	background-color:transparent;
+	background-color:red;
 	min-width:80px;
+	min-height:1px;
 	margin: 5px 10px;
 	color: white;
 	
@@ -212,10 +219,11 @@ QTabBar::Tab {
 
 QTabBar::tab:selected {
 	background-color: transparent;
-	/*border-bottom: 2px solid rgb(22,93,255);*/
-	border-left: 1px solid bold red;
-	border-right: 1px solid bold r;
-	/*margin-left: 5px;
+	/*border-bottom: 2px solid rgb(22,93,255);
+	margin-button:5px;
+	border-button: 2px solid bold red;*/
+	
+	/*margin-left: 5pxborder-right: 1px solid bold r;;
 	margin-right: 5px;
 	color:rgb(30,135,254);*/
 	font-weight: bold; 
@@ -398,6 +406,10 @@ QRadioButton::indicator:checked {
 /*url(:/ads/images/detach-button.svg)*/
 
 /*模型树的响应*/
+QTreeView {
+	padding:10px;
+}
+
 QTreeView::branch:closed:has-children {
 	image: url(:/images/tree-open.png)
 }
@@ -405,6 +417,43 @@ QTreeView::branch:closed:has-children {
 QTreeView::branch:open:has-children {
 	image: url(:/images/tree-close.png)
 }
+
+
+/*2023-09-15*/
+
+/*QTable设置  QTableView */
+QHeaderView::section {
+	background-color: #f0f2f5; /* 默认背景颜色*/
+	selection-background-color: #f0f2f5; /* 选中时的背景颜色*/
+	color: #4d5a69;/* 默认文字颜色*/
+	selection-color: #4d5a69; /*选中时的文字颜色*/
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom: 2px solid #c0c0c0; /*边框*/
+}
+
+
+QLabel {
+	color:#1e88fe;
+	background-color:#f2f5fc;
+	margin-top:5px solid red;
+	margin-bottom:5px solid red ;
+	/*border-left:2px solid #1e88fe;*/
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

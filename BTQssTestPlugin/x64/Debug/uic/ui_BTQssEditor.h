@@ -16,12 +16,11 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QRadioButton>
-#include <QtWidgets/QSplitter>
 #include <QtWidgets/QTableWidget>
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QVBoxLayout>
@@ -31,21 +30,21 @@ QT_BEGIN_NAMESPACE
 class Ui_BTQSSDialog
 {
 public:
-    QHBoxLayout *horizontalLayout;
-    QSplitter *splitter;
+    QLabel *label;
     QGroupBox *groupBox;
+    QVBoxLayout *verticalLayout;
     QTreeWidget *treeWidget;
-    QGroupBox *groupBox_4;
-    QVBoxLayout *verticalLayout_4;
-    QLineEdit *lineEdit_6;
-    QLineEdit *lineEdit_5;
-    QLineEdit *lineEdit_4;
     QGroupBox *groupBox_5;
     QLineEdit *lineEdit_7;
     QLineEdit *lineEdit_8;
     QLineEdit *lineEdit_9;
     QPushButton *pushButton_5;
     QPushButton *pushButton_6;
+    QGroupBox *groupBox_4;
+    QVBoxLayout *verticalLayout_4;
+    QLineEdit *lineEdit_6;
+    QLineEdit *lineEdit_5;
+    QLineEdit *lineEdit_4;
     QGroupBox *groupBox_3;
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
@@ -75,13 +74,14 @@ public:
             BTQSSDialog->setObjectName(QString::fromUtf8("BTQSSDialog"));
         BTQSSDialog->resize(1128, 752);
         BTQSSDialog->setStyleSheet(QString::fromUtf8(""));
-        horizontalLayout = new QHBoxLayout(BTQSSDialog);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        splitter = new QSplitter(BTQSSDialog);
-        splitter->setObjectName(QString::fromUtf8("splitter"));
-        splitter->setOrientation(Qt::Horizontal);
-        groupBox = new QGroupBox(splitter);
+        label = new QLabel(BTQSSDialog);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(30, 80, 241, 41));
+        groupBox = new QGroupBox(BTQSSDialog);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setGeometry(QRect(850, 220, 231, 261));
+        verticalLayout = new QVBoxLayout(groupBox);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         treeWidget = new QTreeWidget(groupBox);
         new QTreeWidgetItem(treeWidget);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem(treeWidget);
@@ -96,10 +96,35 @@ public:
         new QTreeWidgetItem(__qtreewidgetitem1);
         new QTreeWidgetItem(__qtreewidgetitem1);
         treeWidget->setObjectName(QString::fromUtf8("treeWidget"));
-        treeWidget->setGeometry(QRect(12, 27, 256, 192));
+
+        verticalLayout->addWidget(treeWidget);
+
+        groupBox_5 = new QGroupBox(groupBox);
+        groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
+        lineEdit_7 = new QLineEdit(groupBox_5);
+        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
+        lineEdit_7->setGeometry(QRect(30, 30, 113, 21));
+        lineEdit_8 = new QLineEdit(groupBox_5);
+        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
+        lineEdit_8->setGeometry(QRect(10, 100, 321, 41));
+        lineEdit_9 = new QLineEdit(groupBox_5);
+        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
+        lineEdit_9->setGeometry(QRect(30, 50, 171, 31));
+
+        verticalLayout->addWidget(groupBox_5);
+
+        pushButton_5 = new QPushButton(groupBox);
+        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+
+        verticalLayout->addWidget(pushButton_5);
+
+        pushButton_6 = new QPushButton(groupBox);
+        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
+
+        verticalLayout->addWidget(pushButton_6);
+
         groupBox_4 = new QGroupBox(groupBox);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
-        groupBox_4->setGeometry(QRect(12, 593, 195, 125));
         verticalLayout_4 = new QVBoxLayout(groupBox_4);
         verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         lineEdit_6 = new QLineEdit(groupBox_4);
@@ -117,27 +142,12 @@ public:
 
         verticalLayout_4->addWidget(lineEdit_4);
 
-        groupBox_5 = new QGroupBox(groupBox);
-        groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
-        groupBox_5->setGeometry(QRect(20, 280, 251, 191));
-        lineEdit_7 = new QLineEdit(groupBox_5);
-        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
-        lineEdit_7->setGeometry(QRect(30, 30, 113, 21));
-        lineEdit_8 = new QLineEdit(groupBox_5);
-        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
-        lineEdit_8->setGeometry(QRect(10, 100, 321, 41));
-        lineEdit_9 = new QLineEdit(groupBox_5);
-        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
-        lineEdit_9->setGeometry(QRect(30, 50, 171, 31));
-        pushButton_5 = new QPushButton(groupBox);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(10, 497, 93, 31));
-        pushButton_6 = new QPushButton(groupBox);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(10, 551, 93, 20));
-        splitter->addWidget(groupBox);
-        groupBox_3 = new QGroupBox(splitter);
+
+        verticalLayout->addWidget(groupBox_4);
+
+        groupBox_3 = new QGroupBox(BTQSSDialog);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
+        groupBox_3->setGeometry(QRect(320, 80, 375, 303));
         verticalLayout_3 = new QVBoxLayout(groupBox_3);
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         gridLayout = new QGridLayout();
@@ -238,9 +248,9 @@ public:
 
         verticalLayout_3->addLayout(gridLayout);
 
-        splitter->addWidget(groupBox_3);
-        groupBox_2 = new QGroupBox(splitter);
+        groupBox_2 = new QGroupBox(BTQSSDialog);
         groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setGeometry(QRect(850, 80, 221, 131));
         verticalLayout_2 = new QVBoxLayout(groupBox_2);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         tableWidget = new QTableWidget(groupBox_2);
@@ -332,10 +342,6 @@ public:
 
         verticalLayout_2->addWidget(tableWidget);
 
-        splitter->addWidget(groupBox_2);
-
-        horizontalLayout->addWidget(splitter);
-
 
         retranslateUi(BTQSSDialog);
 
@@ -345,6 +351,7 @@ public:
     void retranslateUi(QDialog *BTQSSDialog)
     {
         BTQSSDialog->setWindowTitle(QApplication::translate("BTQSSDialog", "Dialog", nullptr));
+        label->setText(QApplication::translate("BTQSSDialog", "<html><head/><body><p>\350\257\225\351\243\236\346\225\260\346\215\256</p></body></html>", nullptr));
         groupBox->setTitle(QApplication::translate("BTQSSDialog", "treee", nullptr));
         QTreeWidgetItem *___qtreewidgetitem = treeWidget->headerItem();
         ___qtreewidgetitem->setText(0, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\345\210\227", nullptr));
@@ -377,10 +384,10 @@ public:
         ___qtreewidgetitem12->setText(0, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
         treeWidget->setSortingEnabled(__sortingEnabled);
 
-        groupBox_4->setTitle(QApplication::translate("BTQSSDialog", "GroupBox", nullptr));
         groupBox_5->setTitle(QApplication::translate("BTQSSDialog", "GroupBox", nullptr));
         pushButton_5->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
         pushButton_6->setText(QApplication::translate("BTQSSDialog", "PushButton", nullptr));
+        groupBox_4->setTitle(QApplication::translate("BTQSSDialog", "GroupBox", nullptr));
         groupBox_3->setTitle(QApplication::translate("BTQSSDialog", "GroupBox", nullptr));
         comboBox_2->setItemText(0, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
         comboBox_2->setItemText(1, QApplication::translate("BTQSSDialog", "\346\226\260\345\273\272\351\241\271\347\233\256", nullptr));
