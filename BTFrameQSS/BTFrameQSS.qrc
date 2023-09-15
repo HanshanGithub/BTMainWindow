@@ -26,5 +26,6 @@
         <file>images/tree-open.png</file>
         <file>images/WC.png</file>
         <file>images/windows.png</file>
+        <file>qss/BTFrameStyle-qrc.css</file>
     </qresource>
 </RCC>

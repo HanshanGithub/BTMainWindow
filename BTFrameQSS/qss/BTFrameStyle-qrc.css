@@ -345,7 +345,7 @@ QHeaderView::section{
 QCheckBox::indicator {
 	
 	
-	image:url(./images/check-default.png)
+	image:url(:/images/check-default.png)
 }
 /*
 background-color:white;
@@ -355,20 +355,19 @@ border-radius: 10px;*/
 /*复选框响应*/
 QCheckBox::indicator:hover {
 	
-	image:url(./images/check-hover.png)
+	image:url(:/images/check-hover.png)
 	/*可以添加注释*/
 }
 /*border: 1px solid rgb(71,157,250);*/
 
-QCheckBox::indicator:checked {
+QCheckBox::indicator:checked {	
 	
-	
-	image:url(./images/check-checked.png)
+	image:url(:/images/check-checked.png)
 }
 /*border: 1px solid rgb(71,157,250);color:white;*/
 
 QCheckBox::indicator:indeterminate {
-	image:url(./images/tree-indeterminate.png)
+	image:url(:/images/tree-indeterminate.png)
 	
 }
 /*color:white;border:1px;*/
@@ -376,21 +375,21 @@ QCheckBox::indicator:indeterminate {
 /*单选框响应*/
 QRadioButton::indicator{
 	
-	image: url(./images/radio-default.png)
+	image: url(:/images/radio-default.png)
 	
 }
 
 
 QRadioButton::indicator:hover {
 	
-	image: url(./images/radio-hover.png)
+	image: url(:/images/radio-hover.png)
 }
 /*background-color:rgb(30,137,255);
 	border-radius: 12px;*/
 
 QRadioButton::indicator:checked {
 	
-	image: url(./images/radio-checked.png)
+	image: url(:/images/radio-checked.png)
 }
 
 /*background-color:rgb(30,137,255);
@@ -400,11 +399,11 @@ QRadioButton::indicator:checked {
 
 /*模型树的响应*/
 QTreeView::branch:closed:has-children {
-	image: url(./images/tree-open.png)
+	image: url(:/images/tree-open.png)
 }
 
 QTreeView::branch:open:has-children {
-	image: url(./images/tree-close.png)
+	image: url(:/images/tree-close.png)
 }
 
 
