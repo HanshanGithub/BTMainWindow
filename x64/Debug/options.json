@@ -1,0 +1,104 @@
+{
+    "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+    "ModuleInoutType": "BTModuleInoutType_None",
+    "ModuleTreeItemType": "模型树节点模块",
+    "ModuleUuid": "{db2f1154-3f3b-41c8-a0a0-abc5cdd920a3}",
+    "Parameters": [
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "Shape Cmd",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{459fef23-529f-4873-9447-c0e7e87b070c}",
+            "Parameters": [
+            ],
+            "Value": "C:/DassaultSystemes/B18/win_b64/code/bin/CNEXT.exe -env BTJG20220920 -workbench \"变体多构型外形快速生成\""
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "Structure Cmd",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{d4deddaf-7deb-4e72-94b9-beb8b366d403}",
+            "Parameters": [
+            ],
+            "Value": "C:/DassaultSystemes/B18/win_b64/code/bin/CNEXT.exe -env BTJG20220920 -workbench \"刚性和柔性变体结构传力布置\""
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "Catia CMD",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{e9c1a8fa-15c0-4182-9873-0790bb3ea9d4}",
+            "Parameters": [
+            ],
+            "Value": "C:/DassaultSystemes/B18/win_b64/code/bin/CNEXT.exe"
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "Catia Window Title",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{41b91fcf-4d52-4b04-99ff-38407db2adb6}",
+            "Parameters": [
+            ],
+            "Value": "CATIA V5"
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "Catia Window Class",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{71e0bf18-81f7-410a-a497-df0abb3efad5}",
+            "Parameters": [
+            ],
+            "Value": ""
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "OpenVSP CMD",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{747b2468-1f92-4553-a6ac-a44103919294}",
+            "Parameters": [
+            ],
+            "Value": "D:\\dev\\OpenVSP-3.21.2-win64_b\\vsp.exe"
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "OpenVSP Window Title",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{81ebad45-d2ed-48e2-afaa-ab048b9ca883}",
+            "Parameters": [
+            ],
+            "Value": "OpenVSP 3.21.2 - Wed 16/09/20"
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "OpenVSP Window Class",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleUuid": "{be2943ae-4655-43f3-b9d5-028255bd4719}",
+            "Parameters": [
+            ],
+            "Value": "FLTK"
+        }
+    ]
+}

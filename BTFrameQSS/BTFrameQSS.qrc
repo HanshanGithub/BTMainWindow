@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/BTFrameStyle.css</file>
+        <file>images/AP.png</file>
+        <file>images/BT.png</file>
+        <file>images/check-checked.png</file>
+        <file>images/check-default.png</file>
+        <file>images/check-hover.png</file>
+        <file>images/check-indeterminate.png</file>
+        <file>images/clear_content.png</file>
+        <file>images/group_manager.png</file>
+        <file>images/history.png</file>
+        <file>images/line_warp.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/Options.png</file>
+        <file>images/radio-checked.png</file>
+        <file>images/radio-default.png</file>
+        <file>images/radio-hover.png</file>
+        <file>images/save.png</file>
+        <file>images/saveas.png</file>
+        <file>images/SC.png</file>
+        <file>images/TC.png</file>
+        <file>images/tree_manager.png</file>
+        <file>images/tree-close.png</file>
+        <file>images/tree-open.png</file>
+        <file>images/WC.png</file>
+        <file>images/windows.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,93 @@
+{
+    "组件分组": [
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleContainDirectory": "/",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "QSS",
+            "ModuleTemplateGroupName": "QSS",
+            "ModuleTemplateNames": {
+                "Value": [
+                    "test1"
+                ]
+            },
+            "ModuleTreeItemType": "模型树节点分组",
+            "ModuleUuid": "{38133639-18a7-4afd-ad41-7597768b3cfd}",
+            "Parameters": [
+            ]
+        }
+    ],
+    "组件库": [
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
+            "ModuleClassName": "BTNullParameter",
+            "ModuleFolderName": "空值",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "空值",
+            "ModuleTemplateName": "空值",
+            "ModuleTemplateUuid": "{48b04592-298d-4476-beb8-57b5574502b4}",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleTreeItemTypeValue": "空值",
+            "ModuleUuid": "{6b1f048c-941a-440e-9fa9-085b0ec9025c}",
+            "Parameters": [
+            ]
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
+            "ModuleClassName": "BTStringParameter",
+            "ModuleFolderName": "字符串",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "字符串",
+            "ModuleTemplateName": "字符串",
+            "ModuleTemplateUuid": "{5e0534ac-fa15-41a1-aadc-897ec826c479}",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleTreeItemTypeValue": "字符串",
+            "ModuleUuid": "{0aaaa680-9ca9-4de2-a365-83bcf003cedf}",
+            "Parameters": [
+            ]
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
+            "ModuleClassName": "BTIntegerParameter",
+            "ModuleFolderName": "整数",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "整数",
+            "ModuleTemplateName": "整数",
+            "ModuleTemplateUuid": "{2ce0a5dc-ef89-4ee2-82cd-f79442b40b37}",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleTreeItemTypeValue": "整数",
+            "ModuleUuid": "{27be2471-14ff-47f9-be3c-ff1023c26693}",
+            "Parameters": [
+            ]
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
+            "ModuleClassName": "BTFileParameter",
+            "ModuleFolderName": "文件",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "文件",
+            "ModuleTemplateName": "文件",
+            "ModuleTemplateUuid": "{bae18b80-7d37-419e-af00-7569a96dd353}",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleTreeItemTypeValue": "文件",
+            "ModuleUuid": "{019a73a8-bcf2-4d5b-bc18-7cc8bde1a3a4}",
+            "Parameters": [
+            ]
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Plugin",
+            "ModuleFolderName": "test1",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "test1",
+            "ModuleTemplateGroupName": "QSS",
+            "ModuleTemplateName": "test1",
+            "ModuleTemplateUuid": "{e270c278-b8a1-463a-99d0-c05910e3a372}",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleTreeItemTypeValue": "test1",
+            "ModuleUuid": "{e76dd0f8-ecf2-455c-9421-7bd689031ade}",
+            "Parameters": [
+            ],
+            "dll": "BTQssTestPlugin.dll"
+        }
+    ]
+}

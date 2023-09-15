@@ -1,0 +1,21 @@
+﻿  moc BTQssEditor.h
+  moc BTQssMoudule.h
+  moc BTQssPlugin.h
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+  BTQssEditor.cpp
+  BTQssMoudule.cpp
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+  BTQssPlugin.cpp
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+  moc_BTQssEditor.cpp
+  moc_BTQssMoudule.cpp
+cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+  moc_BTQssPlugin.cpp
+    正在创建库 E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.lib 和对象 E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.exp
+  BTQssTestPlugin.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.dll
+  BTQssTestPlugin.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.pdb (Full PDB)
+  已复制         1 个文件。

@@ -1,0 +1,51 @@
+{
+    "ModuleTrees": [
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "项目",
+            "ModuleTreeInfo": "",
+            "ModuleTreeItemType": "模型树节点模块",
+            "ModuleTreeName": "项目",
+            "ModuleUuid": "{c745b6d3-1879-4c2a-af5d-e05fa69dde42}",
+            "Parameters": [
+            ],
+            "TopLevelItems": [
+                {
+                    "Children": [
+                        {
+                            "Children": [
+                            ],
+                            "Module": {
+                                "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+                                "ModuleClassName": "BTNullParameter",
+                                "ModuleFolderName": "QSS",
+                                "ModuleInoutType": "BTModuleInoutType_None",
+                                "ModuleName": "QSS",
+                                "ModuleTreeItemType": "模型树节点分组",
+                                "ModuleTreeItemTypeValue": "QSS",
+                                "ModuleUuid": "{addbad4f-ecbe-4ed4-a041-51bde7334717}",
+                                "Parameters": [
+                                ]
+                            }
+                        }
+                    ],
+                    "Module": {
+                        "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
+                        "ModuleClassName": "BTNullParameter",
+                        "ModuleFolderName": "空值",
+                        "ModuleInoutType": "BTModuleInoutType_None",
+                        "ModuleName": "项目",
+                        "ModuleTemplateName": "空值",
+                        "ModuleTemplateUuid": "{48b04592-298d-4476-beb8-57b5574502b4}",
+                        "ModuleTreeItemType": "模型树节点模块",
+                        "ModuleTreeItemTypeValue": "空值",
+                        "ModuleUuid": "{62e6c618-baa1-4fb2-93d4-e2ce625cdc04}",
+                        "Parameters": [
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
