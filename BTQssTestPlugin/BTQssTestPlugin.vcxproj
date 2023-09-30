@@ -87,7 +87,7 @@
       <AdditionalDependencies>BTCore_d.lib;BTGUI_d.lib;BTModule_d.lib;BTOption_d.lib;QLoggerd.lib;SARibbonBard.lib;qtadvanceddockingd.lib;QPropertyLib.lib;QtPropertyBrowser.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(TargetDir)\plugins</Command>
+      <Command>copy $(TargetPath) $(TargetDir)plugins</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">

@@ -1,5 +1,4 @@
-﻿  rcc BTFrameQSS.qrc
-cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
-  qrc_BTFrameQSS.cpp
+﻿cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+  main.cpp
   BTFrameQSS.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTFrameQSS.exe
   BTFrameQSS.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTFrameQSS.pdb (Full PDB)

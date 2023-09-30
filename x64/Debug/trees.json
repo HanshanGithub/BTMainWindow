@@ -15,31 +15,13 @@
                     "Children": [
                         {
                             "Children": [
-                                {
-                                    "Children": [
-                                    ],
-                                    "Module": {
-                                        "ModuleAssemblyType": "BTModuleAssemblyType_Plugin",
-                                        "ModuleFolderName": "test1",
-                                        "ModuleInoutType": "BTModuleInoutType_None",
-                                        "ModuleName": "test1",
-                                        "ModuleTemplateGroupName": "QSS",
-                                        "ModuleTemplateName": "test1",
-                                        "ModuleTemplateUuid": "{e270c278-b8a1-463a-99d0-c05910e3a372}",
-                                        "ModuleTreeItemType": "模型树节点模块",
-                                        "ModuleTreeItemTypeValue": "test1",
-                                        "ModuleUuid": "{9a8f4ee8-f510-465d-8303-e217576116a0}",
-                                        "Parameters": [
-                                        ]
-                                    }
-                                }
                             ],
                             "Module": {
                                 "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
                                 "ModuleClassName": "BTNullParameter",
-                                "ModuleFolderName": "QSS",
+                                "ModuleFolderName": "BT样式测试",
                                 "ModuleInoutType": "BTModuleInoutType_None",
-                                "ModuleName": "QSS",
+                                "ModuleName": "BT样式测试",
                                 "ModuleTreeItemType": "模型树节点分组",
                                 "ModuleTreeItemTypeValue": "QSS",
                                 "ModuleUuid": "{addbad4f-ecbe-4ed4-a041-51bde7334717}",

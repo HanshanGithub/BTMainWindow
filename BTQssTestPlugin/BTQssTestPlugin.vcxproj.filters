@@ -23,14 +23,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BTQssMoudule.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BTQssPlugin.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <QtUic Include="BTQssEditor.ui">
       <Filter>Form Files</Filter>
     </QtUic>
@@ -48,6 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="BTQssEditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BTQssMoudule.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BTQssPlugin.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

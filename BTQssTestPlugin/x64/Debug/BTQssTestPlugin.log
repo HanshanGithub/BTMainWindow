@@ -1,11 +1,15 @@
-﻿  uic BTQssEditor.ui
-cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
-cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+﻿  Reading Qt configuration (D:/Qt5.12.1/5.12.1/msvc2015_64/bin/qmake)
+  uic BTQssEditor.ui
+  moc BTQssEditor.h
+  moc BTQssMoudule.h
+  moc BTQssPlugin.h
   BTQssEditor.cpp
-cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
   BTQssMoudule.cpp
-cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
+  BTQssPlugin.cpp
   moc_BTQssEditor.cpp
+  moc_BTQssMoudule.cpp
+  moc_BTQssPlugin.cpp
+    正在创建库 E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.lib 和对象 E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.exp
   BTQssTestPlugin.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.dll
   BTQssTestPlugin.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTQssTestPlugin.pdb (Full PDB)
   已复制         1 个文件。

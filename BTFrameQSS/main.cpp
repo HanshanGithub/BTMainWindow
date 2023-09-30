@@ -10,16 +10,14 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 	BTFrameWindow w;
 // 	a.setStyleSheet("");
-	QString qssFile = QString(":/qss/BTFrameStyle-qrc.css");
-// 	QString qssFile = QString("BTFrameStyle.css");
-// 	QString qssFile = QString("D:/tianxin/Desktop/stylesheets/focus_highlighting.css");
+// 	QString qssFile = QString(":/qss/BTFrameStyle-qrc.css");
+	QString qssFile = QString("E:/OneDrive/H/BTFrameStyle.css");
 	QFile styleFile(qssFile);
 	if (styleFile.open(QIODevice::ReadOnly | QIODevice::Text))
 	{
 		QTextStream styleStream(&styleFile);
 		QString style = styleStream.readAll();
 		w.setStyleSheet(style);
-// 		qDebug() << "**********************************************";
 		styleFile.close();
 	}
 
