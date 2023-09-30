@@ -9,8 +9,6 @@ int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
 	BTFrameWindow w;
-// 	a.setStyleSheet("");
-// 	QString qssFile = QString(":/qss/BTFrameStyle-qrc.css");
 	QString qssFile = QString("E:/OneDrive/H/BTFrameStyle.css");
 	QFile styleFile(qssFile);
 	if (styleFile.open(QIODevice::ReadOnly | QIODevice::Text))
