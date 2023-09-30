@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 		w.setStyleSheet(style);
 		styleFile.close();
 	}
-
 	w.show();
 	return a.exec();
 }
