@@ -1,4 +1,5 @@
 ﻿cl : 命令行 warning D9002: 忽略未知选项“-Zc:__cplusplus”
-  main.cpp
+  moc_BTFrameWindow.cpp
+  LINK : 没有找到 E:\Repository\BTFrameQSS\x64\Debug\BTFrameQSS.exe 或上一个增量链接没有生成它；正在执行完全链接
   BTFrameQSS.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTFrameQSS.exe
   BTFrameQSS.vcxproj -> E:\Repository\BTFrameQSS\x64\Debug\BTFrameQSS.pdb (Full PDB)

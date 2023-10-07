@@ -2,7 +2,9 @@
     "组件分组": [
         {
             "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
-            "ModuleContainDirectory": "/",
+            "ModuleContainDirectory": "/QSS",
+            "ModuleFolderName": "QSS",
+            "ModuleIcon": "check-checked.png",
             "ModuleInoutType": "BTModuleInoutType_None",
             "ModuleName": "QSS",
             "ModuleTemplateGroupName": "QSS",
@@ -12,7 +14,27 @@
                 ]
             },
             "ModuleTreeItemType": "模型树节点分组",
+            "ModuleTreeItemTypeValue": "QSS",
             "ModuleUuid": "{38133639-18a7-4afd-ad41-7597768b3cfd}",
+            "Parameters": [
+            ]
+        },
+        {
+            "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+            "ModuleContainDirectory": "/组件新增",
+            "ModuleFolderName": "组件新增",
+            "ModuleIcon": "group_manager.png",
+            "ModuleInoutType": "BTModuleInoutType_None",
+            "ModuleName": "组件新增",
+            "ModuleTemplateGroupName": "组件新增",
+            "ModuleTemplateNames": {
+                "Value": [
+                    "文件"
+                ]
+            },
+            "ModuleTreeItemType": "模型树节点分组",
+            "ModuleTreeItemTypeValue": "组件新增",
+            "ModuleUuid": "{d200d738-6b11-4ed3-ac26-684235c45600}",
             "Parameters": [
             ]
         }
@@ -64,8 +86,10 @@
             "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
             "ModuleClassName": "BTFileParameter",
             "ModuleFolderName": "文件",
+            "ModuleIcon": "tree_manager.png",
             "ModuleInoutType": "BTModuleInoutType_None",
             "ModuleName": "文件",
+            "ModuleTemplateGroupName": "组件新增",
             "ModuleTemplateName": "文件",
             "ModuleTemplateUuid": "{bae18b80-7d37-419e-af00-7569a96dd353}",
             "ModuleTreeItemType": "模型树节点模块",
@@ -77,6 +101,7 @@
         {
             "ModuleAssemblyType": "BTModuleAssemblyType_Plugin",
             "ModuleFolderName": "test1",
+            "ModuleIcon": "new.png",
             "ModuleInoutType": "BTModuleInoutType_None",
             "ModuleName": "test1",
             "ModuleTemplateGroupName": "QSS",

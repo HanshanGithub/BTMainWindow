@@ -20,6 +20,7 @@
                                 "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
                                 "ModuleClassName": "BTNullParameter",
                                 "ModuleFolderName": "BT样式测试",
+                                "ModuleIcon": "BT.png",
                                 "ModuleInoutType": "BTModuleInoutType_None",
                                 "ModuleName": "BT样式测试",
                                 "ModuleTreeItemType": "模型树节点分组",
@@ -28,12 +29,30 @@
                                 "Parameters": [
                                 ]
                             }
+                        },
+                        {
+                            "Children": [
+                            ],
+                            "Module": {
+                                "ModuleAssemblyType": "BTModuleAssemblyType_Unknown",
+                                "ModuleClassName": "BTNullParameter",
+                                "ModuleFolderName": "界面栏",
+                                "ModuleIcon": "line_warp.png",
+                                "ModuleInoutType": "BTModuleInoutType_None",
+                                "ModuleName": "界面栏",
+                                "ModuleTreeItemType": "模型树节点分组",
+                                "ModuleTreeItemTypeValue": "组件新增",
+                                "ModuleUuid": "{e4b07f2b-2c11-4f99-8768-5ee69f4394fa}",
+                                "Parameters": [
+                                ]
+                            }
                         }
                     ],
                     "Module": {
                         "ModuleAssemblyType": "BTModuleAssemblyType_CustomModule",
                         "ModuleClassName": "BTNullParameter",
-                        "ModuleFolderName": "空值",
+                        "ModuleFolderName": "项目",
+                        "ModuleIcon": "clear_content.png",
                         "ModuleInoutType": "BTModuleInoutType_None",
                         "ModuleName": "项目",
                         "ModuleTemplateName": "空值",
